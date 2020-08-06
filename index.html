@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Jardines</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://unpkg.com/hydra-synth"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+    @font-face {
+      font-family: Thames;
+      src: url(thames.ttf);
+    }
+
+    body {
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    p {
+      margin: 0;
+      padding: 0;
+    }
+
+    a:hover {
+      color: red;
+    }
+
+    canvas {
+      padding: 0;
+      margin: 0;
+      display: block;
+    }
+
+    #canvasHydra {
+      width: 100vw;
+      height: 100vh;
+      background-color: black;
+    }
+
+    .logo {
+      z-index: 1000;
+      font-size: 10rem;
+    }
+
+    .centrar {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      /*El translate hace que el punto de anclaje esté en el centro.*/
+      transform: translate(-50%, -50%);
+    }
+
+    .fondo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 700px;
+      height: 240px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      /*El translate hace que el punto de anclaje esté en el centro.*/
+      transform: translate(-50%, -50%);
+      background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+
+    .logo {
+      font-size: 130px;
+      text-align: center;
+      position: absolute;
+    }
+
+    .hydra {
+      width: 100%;
+      height: 100%;
+    }
+
+    .creditos {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      width: 100px;
+      top: calc(100vh - 4.8rem);
+      left: calc(100vw - 300px);
+      height: auto;
+    }
+
+    .creditos img:first-of-type {
+      margin-right: 1.5rem;
+    }
+
+    .creditos a {
+      color: #919191;
+    }
+
+    .creditos a:hover {
+      color: white;
+    }
+
+    .modal__interior {
+      padding: 3rem;
+      font-family: Thames;
+    }
+
+    .modal__interior p {
+      margin-bottom: 1.2rem;
+      font-size: .95rem;
+    }
+
+    .w3-modal-content {
+      background-color: rgb(0, 0, 0, .85);
+      color: white;
+      border: 2px solid white;
+      width: 600px;
+      height: auto;
+    }
+
+    .apoteosis {
+      background-color: #E8AE2D!important;
+    }
+
+    .alquitran {
+      background-color: #9E2052!important;
+    }
+
+    .aferra {
+      background-color: #1199CE!important;
+    }
+
+    .aquiahora {
+      background-color: #219362!important;
+    }
+
+    .dot {
+      height: 70px;
+      width: 70px;
+      border-radius: 50%;
+      display: inline-block;
+      text-align: center;
+    }
+
+    .tracklist {
+      display: flex;
+      margin-top: 1.5rem;
+      width: 100%;
+      justify-content: space-evenly;
+    }
+
+    .color-track {
+      text-align: center;
+    }
+
+    #span__btn{
+      width: 100%;
+      text-align: center!important;
+    }
+  </style>
+
+</head>
+
+<body>
+  <audio autoplay loop>
+    <source src="audioAqui.mp3" type="audio/mp3">
+  </audio>
+  <div class="centrar">
+    <a href="html/jardines.html"><img src="jardines.svg" alt="Jardines"></a>
+  </div>
+
+  <canvas class="hydra" id="canvasHydra" width="100vw" height="100vh"></canvas>
+
+  <div class="creditos">
+    <img src="otono.svg" alt="OTONO">
+    <img src="mrmt.svg" alt="OTONO">
+  </div>
+
+  <!-- --------------------------- Script de Hydra --------------------------- -->
+  <script>
+    var scale = window.devicePixelRatio;
+    var size = 1000;
+    var c = document.getElementById("canvasHydra");
+    c.width = Math.floor(size * scale);
+    c.height = Math.floor(size * scale);
+
+    // create a new hydra-synth instance
+    var hydra = new Hydra({
+      canvas: document.getElementById("canvasHydra")
+    });
+
+    osc(20, 1, 1)
+      .kaleid()
+      .mask(shape(4, 0.1, 2))
+      .modulateRotate(shape(4, 0.1, 1))
+      .modulateRotate(shape(4, 0.1, 0.9))
+      .modulateRotate(shape(2, 0.1, 0.8))
+      .scale(0.3)
+      .add(shape(4, 0.2, 1).color(0.05, 0.05, 0.05, 0.5))
+      .rotate(() => time)
+      .out()
+  </script>
+
+  <div id="id01" class="w3-modal w3-animate-opacity">
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container w3-black">
+        <span onclick="document.getElementById('id01').style.display='none'"
+          class="w3-button w3-large w3-display-topright">&times;</span>
+      </header>
+      <div class="w3-container  modal__interior">
+        <h3>
+          <b>[ Jardines / Alquitrán / VR Experience]</b>
+        </h3>
+        <p>- Da click en el logo de Jardines para comenzar.</p>
+        <p>- Controla la vista dejando apretado click izquierdo sobre la pantalla.</p>
+        <p>- Sin soltar, dirige a la dirección a seguir.</p>
+        <p>- La velocidad está determinada por la distancia del mouse con respecto al centro.</p>
+        <p>- Para moverte hacia adelante aprieta click izquierdo y para atrás, click derecho.</p>
+        <p>
+          Encuentras la canciones según el color de la esfera. Están dispuestas de manera horizontal. No tengas miedo de perderte, es parte de la historia.
+        </p>
+        <hr>
+        <div class="tracklist">
+          <div class="color-track" >
+            <span class="dot apoteosis"></span>
+            <p class="nombre-track"> Apoteosis</p>
+          </div>
+          <div class="color-track">
+            <span class="dot alquitran"></span>
+            <p class="nombre-track">Alquitrán</p>
+          </div>
+          <div class="color-track">
+            <span class="dot aferra"></span>
+            <p class="nombre-track">Aferra</p>
+          </div>
+          <div class="color-track">
+            <span class="dot aquiahora"></span>
+            <p class="nombre-track">Aquí, ahora</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script>
+  var modal = document.getElementById('id01');
+  modal.style.display='block';
+</script>
+</body>
+
+</html>

@@ -1,0 +1,147 @@
+Aug  4 22:13:48 10.71.61.0 u101555840-oscar Connection from 10.71.61.0 port 44726 on 74.208.57.60 port 22
+Aug  4 22:13:49 10.71.61.0 u101555840-oscar Accepted password for u101555840-oscar from 10.71.61.0 port 44726 ssh2
+Aug  4 22:13:49 10.71.61.0 u101555840-oscar Starting session: subsystem 'sftp' for u101555840-oscar from 10.71.61.0 port 44726 id 0
+Aug  4 22:13:49 10.71.61.0 u101555840-oscar session opened for local user u101555840-oscar from [10.71.61.0]
+Aug  4 22:22:25 10.71.61.0 u101555840-oscar session closed for local user u101555840-oscar from [10.71.61.0]
+Aug  4 22:22:25 10.71.61.0 u101555840-oscar Received disconnect from 10.71.61.0 port 44726:11: 
+Aug  4 22:22:57 10.71.61.0 u101555840-oscar Connection from 10.71.61.0 port 27978 on 74.208.57.60 port 22
+Aug  4 22:22:58 10.71.61.0 u101555840-oscar Accepted password for u101555840-oscar from 10.71.61.0 port 27978 ssh2
+Aug  4 22:22:58 10.71.61.0 u101555840-oscar Starting session: subsystem 'sftp' for u101555840-oscar from 10.71.61.0 port 27978 id 0
+Aug  4 22:22:58 10.71.61.0 u101555840-oscar session opened for local user u101555840-oscar from [10.71.61.0]
+Aug  4 22:24:06 10.71.61.0 u101555840 Connection from 10.71.61.0 port 55788 on 74.208.57.60 port 22
+Aug  4 22:24:06 10.71.61.0 u101555840 Accepted password for u101555840 from 10.71.61.0 port 55788 ssh2
+Aug  4 22:24:06 10.71.61.0 u101555840 Starting session: subsystem 'sftp' for u101555840 from 10.71.61.0 port 55788 id 0
+Aug  4 22:24:06 10.71.61.0 u101555840 session opened for local user u101555840 from [10.71.61.0]
+Aug  4 22:24:19 10.71.61.0 u101555840-oscar session closed for local user u101555840-oscar from [10.71.61.0]
+Aug  4 22:24:19 10.71.61.0 u101555840-oscar Received disconnect from 10.71.61.0 port 27978:11: 
+Aug  4 22:25:33 10.71.61.0 u101555840 Connection from 10.71.61.0 port 41798 on 74.208.57.60 port 22
+Aug  4 22:25:33 10.71.61.0 u101555840 Accepted password for u101555840 from 10.71.61.0 port 41798 ssh2
+Aug  4 22:25:33 10.71.61.0 u101555840 Connection from 10.71.61.0 port 41800 on 74.208.57.60 port 22
+Aug  4 22:25:33 10.71.61.0 u101555840 Accepted password for u101555840 from 10.71.61.0 port 41800 ssh2
+Aug  4 22:25:34 10.71.61.0 u101555840 Starting session: subsystem 'sftp' for u101555840 from 10.71.61.0 port 41798 id 0
+Aug  4 22:25:34 10.71.61.0 u101555840 session opened for local user u101555840 from [10.71.61.0]
+Aug  4 22:25:34 10.71.61.0 u101555840 Starting session: subsystem 'sftp' for u101555840 from 10.71.61.0 port 41800 id 0
+Aug  4 22:25:34 10.71.61.0 u101555840 session opened for local user u101555840 from [10.71.61.0]
+Aug  4 22:25:34 10.71.61.0 u101555840 open "/audioAqui.mp3" flags READ mode 0666
+Aug  4 22:25:34 10.71.61.0 u101555840 open "/hydra-synth.js" flags READ mode 0666
+Aug  4 22:25:34 10.71.61.0 u101555840 close "/hydra-synth.js" bytes read 227634 written 0
+Aug  4 22:25:34 10.71.61.0 u101555840 [10.71.61.0|get|0|227634|0|0|0|2f68796472612d73796e74682e6a73|]
+Aug  4 22:25:35 10.71.61.0 u101555840 open "/index.html" flags READ mode 0666
+Aug  4 22:25:35 10.71.61.0 u101555840 close "/index.html" bytes read 3599 written 0
+Aug  4 22:25:35 10.71.61.0 u101555840 [10.71.61.0|get|0|3599|0|0|0|2f696e6465782e68746d6c|]
+Aug  4 22:25:35 10.71.61.0 u101555840 open "/jardines.svg" flags READ mode 0666
+Aug  4 22:25:35 10.71.61.0 u101555840 close "/jardines.svg" bytes read 5023 written 0
+Aug  4 22:25:35 10.71.61.0 u101555840 [10.71.61.0|get|0|5023|0|0|0|2f6a617264696e65732e737667|]
+Aug  4 22:25:35 10.71.61.0 u101555840 sent status No such file
+Aug  4 22:25:35 10.71.61.0 u101555840 open "/thames.ttf" flags READ mode 0666
+Aug  4 22:25:36 10.71.61.0 u101555840 close "/thames.ttf" bytes read 70526 written 0
+Aug  4 22:25:36 10.71.61.0 u101555840 [10.71.61.0|get|1|70526|0|0|0|2f7468616d65732e747466|]
+Aug  4 22:25:36 10.71.61.0 u101555840 open "/html/zen.js" flags READ mode 0666
+Aug  4 22:25:36 10.71.61.0 u101555840 close "/html/zen.js" bytes read 6913 written 0
+Aug  4 22:25:36 10.71.61.0 u101555840 [10.71.61.0|get|0|6913|0|0|0|2f68746d6c2f7a656e2e6a73|]
+Aug  4 22:25:36 10.71.61.0 u101555840 open "/html/zen.gltf" flags READ mode 0666
+Aug  4 22:25:36 10.71.61.0 u101555840 close "/html/zen.gltf" bytes read 10542 written 0
+Aug  4 22:25:36 10.71.61.0 u101555840 [10.71.61.0|get|0|10542|0|0|0|2f68746d6c2f7a656e2e676c7466|]
+Aug  4 22:25:36 10.71.61.0 u101555840 close "/audioAqui.mp3" bytes read 6335481 written 0
+Aug  4 22:25:36 10.71.61.0 u101555840 [10.71.61.0|get|2|6335481|0|0|0|2f617564696f417175692e6d7033|]
+Aug  4 22:25:37 10.71.61.0 u101555840 open "/html/space.jpg" flags READ mode 0666
+Aug  4 22:25:37 10.71.61.0 u101555840 open "/html/PointerLockControls.js" flags READ mode 0666
+Aug  4 22:25:37 10.71.61.0 u101555840 close "/html/space.jpg" bytes read 577868 written 0
+Aug  4 22:25:37 10.71.61.0 u101555840 [10.71.61.0|get|0|577868|0|0|0|2f68746d6c2f73706163652e6a7067|]
+Aug  4 22:25:37 10.71.61.0 u101555840 close "/html/PointerLockControls.js" bytes read 3884 written 0
+Aug  4 22:25:37 10.71.61.0 u101555840 [10.71.61.0|get|0|3884|0|0|0|2f68746d6c2f506f696e7465724c6f636b436f6e74726f6c732e6a73|]
+Aug  4 22:25:37 10.71.61.0 u101555840 open "/html/out.jpg" flags READ mode 0666
+Aug  4 22:25:37 10.71.61.0 u101555840 open "/html/orbit.js" flags READ mode 0666
+Aug  4 22:25:38 10.71.61.0 u101555840 close "/html/orbit.js" bytes read 25087 written 0
+Aug  4 22:25:38 10.71.61.0 u101555840 [10.71.61.0|get|1|25087|0|0|0|2f68746d6c2f6f726269742e6a73|]
+Aug  4 22:25:38 10.71.61.0 u101555840 open "/html/neblina.png" flags READ mode 0666
+Aug  4 22:25:38 10.71.61.0 u101555840 close "/html/out.jpg" bytes read 3400866 written 0
+Aug  4 22:25:38 10.71.61.0 u101555840 [10.71.61.0|get|1|3400866|0|0|0|2f68746d6c2f6f75742e6a7067|]
+Aug  4 22:25:38 10.71.61.0 u101555840 close "/html/neblina.png" bytes read 3725 written 0
+Aug  4 22:25:38 10.71.61.0 u101555840 [10.71.61.0|get|0|3725|0|0|0|2f68746d6c2f6e65626c696e612e706e67|]
+Aug  4 22:25:38 10.71.61.0 u101555840 open "/html/neblina.jpg" flags READ mode 0666
+Aug  4 22:25:38 10.71.61.0 u101555840 open "/html/JardinFinal.bin" flags READ mode 0666
+Aug  4 22:25:38 10.71.61.0 u101555840 close "/html/neblina.jpg" bytes read 11881 written 0
+Aug  4 22:25:38 10.71.61.0 u101555840 [10.71.61.0|get|0|11881|0|0|0|2f68746d6c2f6e65626c696e612e6a7067|]
+Aug  4 22:25:39 10.71.61.0 u101555840 open "/html/jardines.html" flags READ mode 0666
+Aug  4 22:25:39 10.71.61.0 u101555840 close "/html/jardines.html" bytes read 1775 written 0
+Aug  4 22:25:39 10.71.61.0 u101555840 [10.71.61.0|get|0|1775|0|0|0|2f68746d6c2f6a617264696e65732e68746d6c|]
+Aug  4 22:25:39 10.71.61.0 u101555840 open "/html/hydra.js" flags READ mode 0666
+Aug  4 22:25:39 10.71.61.0 u101555840 close "/html/hydra.js" bytes read 208 written 0
+Aug  4 22:25:39 10.71.61.0 u101555840 [10.71.61.0|get|0|208|0|0|0|2f68746d6c2f68796472612e6a73|]
+Aug  4 22:25:39 10.71.61.0 u101555840 open "/html/GLTFLoader.js" flags READ mode 0666
+Aug  4 22:25:40 10.71.61.0 u101555840 close "/html/GLTFLoader.js" bytes read 87253 written 0
+Aug  4 22:25:40 10.71.61.0 u101555840 [10.71.61.0|get|1|87253|0|0|0|2f68746d6c2f474c54464c6f616465722e6a73|]
+Aug  4 22:25:40 10.71.61.0 u101555840 open "/html/FlyControls.js" flags READ mode 0666
+Aug  4 22:25:40 10.71.61.0 u101555840 close "/html/FlyControls.js" bytes read 7453 written 0
+Aug  4 22:25:40 10.71.61.0 u101555840 [10.71.61.0|get|0|7453|0|0|0|2f68746d6c2f466c79436f6e74726f6c732e6a73|]
+Aug  4 22:25:40 10.71.61.0 u101555840 open "/html/FirstPersonControls.js" flags READ mode 0666
+Aug  4 22:25:40 10.71.61.0 u101555840 close "/html/FirstPersonControls.js" bytes read 7562 written 0
+Aug  4 22:25:40 10.71.61.0 u101555840 [10.71.61.0|get|0|7562|0|0|0|2f68746d6c2f4669727374506572736f6e436f6e74726f6c732e6a73|]
+Aug  4 22:25:41 10.71.61.0 u101555840 open "/html/blanco.jpg" flags READ mode 0666
+Aug  4 22:25:41 10.71.61.0 u101555840 close "/html/blanco.jpg" bytes read 11787 written 0
+Aug  4 22:25:41 10.71.61.0 u101555840 [10.71.61.0|get|0|11787|0|0|0|2f68746d6c2f626c616e636f2e6a7067|]
+Aug  4 22:25:41 10.71.61.0 u101555840 open "/html/AudioPosition.gltf" flags READ mode 0666
+Aug  4 22:25:41 10.71.61.0 u101555840 close "/html/AudioPosition.gltf" bytes read 1462 written 0
+Aug  4 22:25:41 10.71.61.0 u101555840 [10.71.61.0|get|0|1462|0|0|0|2f68746d6c2f417564696f506f736974696f6e2e676c7466|]
+Aug  4 22:25:41 10.71.61.0 u101555840 open "/html/AudioPosition.bin" flags READ mode 0666
+Aug  4 22:25:41 10.71.61.0 u101555840 close "/html/AudioPosition.bin" bytes read 300 written 0
+Aug  4 22:25:41 10.71.61.0 u101555840 [10.71.61.0|get|0|300|0|0|0|2f68746d6c2f417564696f506f736974696f6e2e62696e|]
+Aug  4 22:25:42 10.71.61.0 u101555840 open "/html/audioAqui.mp3" flags READ mode 0666
+Aug  4 22:25:45 10.71.61.0 u101555840 close "/html/JardinFinal.bin" bytes read 13953516 written 0
+Aug  4 22:25:45 10.71.61.0 u101555840 [10.71.61.0|get|7|13953516|0|0|0|2f68746d6c2f4a617264696e46696e616c2e62696e|]
+Aug  4 22:25:45 10.71.61.0 u101555840 open "/html/audioApo.mp3" flags READ mode 0666
+Aug  4 22:25:46 10.71.61.0 u101555840 close "/html/audioAqui.mp3" bytes read 6335481 written 0
+Aug  4 22:25:46 10.71.61.0 u101555840 [10.71.61.0|get|4|6335481|0|0|0|2f68746d6c2f617564696f417175692e6d7033|]
+Aug  4 22:25:47 10.71.61.0 u101555840 open "/html/audioAlquitran.mp3" flags READ mode 0666
+Aug  4 22:25:48 10.71.61.0 u101555840 close "/html/audioApo.mp3" bytes read 5037786 written 0
+Aug  4 22:25:48 10.71.61.0 u101555840 [10.71.61.0|get|3|5037786|0|0|0|2f68746d6c2f617564696f41706f2e6d7033|]
+Aug  4 22:25:48 10.71.61.0 u101555840 open "/html/audioAferra.mp3" flags READ mode 0666
+Aug  4 22:25:51 10.71.61.0 u101555840 close "/html/audioAferra.mp3" bytes read 7168690 written 0
+Aug  4 22:25:51 10.71.61.0 u101555840 [10.71.61.0|get|3|7168690|0|0|0|2f68746d6c2f617564696f4166657272612e6d7033|]
+Aug  4 22:25:51 10.71.61.0 u101555840 open "/logs/access.log.32.1.gz" flags READ mode 0666
+Aug  4 22:25:51 10.71.61.0 u101555840 close "/logs/access.log.32.1.gz" bytes read 1811 written 0
+Aug  4 22:25:51 10.71.61.0 u101555840 [10.71.61.0|get|0|1811|0|0|0|2f6c6f67732f6163636573732e6c6f672e33322e312e677a|]
+Aug  4 22:25:51 10.71.61.0 u101555840 open "/logs/access.log.32.2" flags READ mode 0666
+Aug  4 22:25:52 10.71.61.0 u101555840 close "/logs/access.log.32.2" bytes read 28060 written 0
+Aug  4 22:25:52 10.71.61.0 u101555840 [10.71.61.0|get|1|28060|0|0|0|2f6c6f67732f6163636573732e6c6f672e33322e32|]
+Aug  4 22:25:52 10.71.61.0 u101555840 open "/logs/access.log.30.gz" flags READ mode 0666
+Aug  4 22:25:52 10.71.61.0 u101555840 close "/logs/access.log.30.gz" bytes read 6722 written 0
+Aug  4 22:25:52 10.71.61.0 u101555840 [10.71.61.0|get|0|6722|0|0|0|2f6c6f67732f6163636573732e6c6f672e33302e677a|]
+Aug  4 22:25:52 10.71.61.0 u101555840 open "/logs/sftp.log.31.gz" flags READ mode 0666
+Aug  4 22:25:52 10.71.61.0 u101555840 close "/logs/sftp.log.31.gz" bytes read 5914 written 0
+Aug  4 22:25:52 10.71.61.0 u101555840 [10.71.61.0|get|0|5914|0|0|0|2f6c6f67732f736674702e6c6f672e33312e677a|]
+Aug  4 22:25:52 10.71.61.0 u101555840 open "/logs/access.log.31.7.gz" flags READ mode 0666
+Aug  4 22:25:53 10.71.61.0 u101555840 close "/logs/access.log.31.7.gz" bytes read 958 written 0
+Aug  4 22:25:53 10.71.61.0 u101555840 [10.71.61.0|get|1|958|0|0|0|2f6c6f67732f6163636573732e6c6f672e33312e372e677a|]
+Aug  4 22:25:53 10.71.61.0 u101555840 open "/logs/access.log.31.6.gz" flags READ mode 0666
+Aug  4 22:25:53 10.71.61.0 u101555840 close "/logs/access.log.31.6.gz" bytes read 1607 written 0
+Aug  4 22:25:53 10.71.61.0 u101555840 [10.71.61.0|get|0|1607|0|0|0|2f6c6f67732f6163636573732e6c6f672e33312e362e677a|]
+Aug  4 22:25:53 10.71.61.0 u101555840 open "/logs/access.log.31.5.gz" flags READ mode 0666
+Aug  4 22:25:53 10.71.61.0 u101555840 close "/logs/access.log.31.5.gz" bytes read 955 written 0
+Aug  4 22:25:53 10.71.61.0 u101555840 [10.71.61.0|get|0|955|0|0|0|2f6c6f67732f6163636573732e6c6f672e33312e352e677a|]
+Aug  4 22:25:53 10.71.61.0 u101555840 open "/logs/access.log.31.4.gz" flags READ mode 0666
+Aug  4 22:25:53 10.71.61.0 u101555840 close "/logs/access.log.31.4.gz" bytes read 5982 written 0
+Aug  4 22:25:53 10.71.61.0 u101555840 [10.71.61.0|get|0|5982|0|0|0|2f6c6f67732f6163636573732e6c6f672e33312e342e677a|]
+Aug  4 22:25:54 10.71.61.0 u101555840 open "/logs/access.log.31.3.gz" flags READ mode 0666
+Aug  4 22:25:54 10.71.61.0 u101555840 close "/logs/access.log.31.3.gz" bytes read 4562 written 0
+Aug  4 22:25:54 10.71.61.0 u101555840 [10.71.61.0|get|0|4562|0|0|0|2f6c6f67732f6163636573732e6c6f672e33312e332e677a|]
+Aug  4 22:25:54 10.71.61.0 u101555840 open "/logs/access.log.31.2.gz" flags READ mode 0666
+Aug  4 22:25:54 10.71.61.0 u101555840 close "/logs/access.log.31.2.gz" bytes read 620 written 0
+Aug  4 22:25:54 10.71.61.0 u101555840 [10.71.61.0|get|0|620|0|0|0|2f6c6f67732f6163636573732e6c6f672e33312e322e677a|]
+Aug  4 22:25:54 10.71.61.0 u101555840 open "/logs/access.log.31.1.gz" flags READ mode 0666
+Aug  4 22:25:54 10.71.61.0 u101555840 close "/logs/access.log.31.1.gz" bytes read 685 written 0
+Aug  4 22:25:54 10.71.61.0 u101555840 [10.71.61.0|get|0|685|0|0|0|2f6c6f67732f6163636573732e6c6f672e33312e312e677a|]
+Aug  4 22:25:55 10.71.61.0 u101555840 open "/logs/access.log.29.gz" flags READ mode 0666
+Aug  4 22:25:55 10.71.61.0 u101555840 close "/logs/access.log.29.gz" bytes read 6124 written 0
+Aug  4 22:25:55 10.71.61.0 u101555840 [10.71.61.0|get|0|6124|0|0|0|2f6c6f67732f6163636573732e6c6f672e32392e677a|]
+Aug  4 22:25:55 10.71.61.0 u101555840 open "/logs/sftp.log.30.gz" flags READ mode 0666
+Aug  4 22:25:55 10.71.61.0 u101555840 close "/logs/sftp.log.30.gz" bytes read 5512 written 0
+Aug  4 22:25:55 10.71.61.0 u101555840 [10.71.61.0|get|0|5512|0|0|0|2f6c6f67732f736674702e6c6f672e33302e677a|]
+Aug  4 22:25:55 10.71.61.0 u101555840 open "/logs/access.log.28.gz" flags READ mode 0666
+Aug  4 22:25:55 10.71.61.0 u101555840 close "/html/audioAlquitran.mp3" bytes read 4714770 written 0
+Aug  4 22:25:55 10.71.61.0 u101555840 [10.71.61.0|get|8|4714770|0|0|0|2f68746d6c2f617564696f416c7175697472616e2e6d7033|]
+Aug  4 22:25:55 10.71.61.0 u101555840 close "/logs/access.log.28.gz" bytes read 608 written 0
+Aug  4 22:25:55 10.71.61.0 u101555840 [10.71.61.0|get|0|608|0|0|0|2f6c6f67732f6163636573732e6c6f672e32382e677a|]
+Aug  4 22:25:55 10.71.61.0 u101555840 open "/logs/sftp.log.29.gz" flags READ mode 0666
+Aug  4 22:25:56 10.71.61.0 u101555840 open "/logs/sftp.log" flags READ mode 0666
